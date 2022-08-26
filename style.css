@@ -1,0 +1,252 @@
+*{
+    margin: 0;}
+
+body{
+    height: 100vh;
+    background-image: url(img/The-Big-Bang-Theory-divulgacao.jpg);
+    background-position: center center;
+    background-repeat: repeat-y;
+    background-size: cover;
+    background-attachment: fixed;
+    
+
+
+}    
+
+.logo img{ 
+    margin-bottom: 10px;
+    margin-top: 8px;
+    height: 40px;
+    
+   
+}
+
+header{
+    
+    display: flex;
+    align-items: center;
+    height: 50px;
+    background-color: rgba(0,0,0,0.5);
+    justify-content: space-between;
+    border-bottom: 1px solid rgba(0,0,0,0.1);
+
+
+
+    
+}
+
+header .logo{ 
+    padding-left: 50px;
+    display: flex;
+    align-items: center;
+
+}
+
+.info{
+    padding-right: 70px;
+}
+
+ .info a{
+    color: white;
+    
+    font-size: 20px;
+    padding-left: 50px;
+    text-decoration: none;}
+
+.info a:hover{ font-size: 35px;
+    transition: 1s;
+
+}    
+
+.logo h1{ 
+    
+    font-size: 45px;
+    padding-left: 50px;
+    color: black;}
+
+audio{
+    
+    width: 150px;
+    height: 20px;
+    margin-left: 15px;
+}
+
+
+
+ .container{
+    padding-top: 300px;
+    display: flex;
+    width: 80%;
+    height:100v;
+    padding-left: 175px;
+    
+    
+ }   
+
+ .container_1{
+    color: white;
+    flex: 1;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: rgba(0,0,0,0.7);
+    padding-left: 10px;
+    
+ }
+
+ .container_2{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex: 1;
+    flex-wrap: wrap;
+    background-color: rgba(0,0,0,0.7);
+
+    
+ } 
+
+.vd{ 
+    margin-left: 38%;
+
+}
+
+ h4{
+    font-size: 14px;
+}
+
+.topp{ 
+    margin-top: 20px;
+    margin-bottom: 5px;
+    
+}
+
+
+
+.top{
+    font-size: 40px;
+    margin-left: 100px;
+    margin-top: 50px;
+}
+
+ .container_a{
+    width: 288px;
+ }
+
+ .container_a img{
+ 
+    padding-left: 20px;
+    padding-top: 15px;
+    padding-bottom: 1px;
+    width: 250px;
+    height: 188px;
+    
+ }
+ .container_a h2{ 
+    padding-left: 20px;
+     padding-bottom: 10px;
+  }
+
+ .container_a p{
+    padding-left: 15px;
+  flex-wrap: wrap;
+ }
+
+ .container_a p a{
+    font-size: 10px;
+    color: antiquewhite;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+ }
+
+
+.container_roda{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+ .link{
+  Justify-content: center;
+    display: flex;
+    align-items: center;
+    height: 40px;
+    background-color: rgba(0,0,0,0.9);
+
+ }
+
+ .direitos{
+    border-top: 1px solid rgb(70, 68, 68);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    height: 30px;
+    background-color: rgba(0,0,0,0.9);
+
+ }
+
+
+.direitos p{
+
+    padding-top: 10px;
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12PX;
+    color: rgb(179, 173, 173);
+    margin-bottom: 20px;
+}
+
+
+ .link a{
+    text-decoration: none;
+    color: white;
+ }
+
+ .link{
+    color: white;
+    display: flex;
+    justify-content: space-around;
+ }
+
+ .link a{
+    padding-left: 35px;
+    padding-right: 30px;
+ }
+
+
+ .git{
+    margin-left: -20px;
+    width: 22px;
+    height: 22px;
+ }
+
+ .link ul{ 
+    
+    
+    display: flex;
+    align-items: center;
+}
+
+.termo{
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12PX;
+    color: rgb(179, 173, 173);
+    
+}
+
+span{
+    font-size: 14px;
+}
+
+.ab{
+    font-size: 15px;
+    text-decoration: none;
+}
+
+.iim{
+    width: 550px;
+    border-radius: 25px;
+}
